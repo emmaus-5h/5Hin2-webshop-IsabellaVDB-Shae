@@ -26,4 +26,4 @@ insert into products (name, description, code, price) values ('bracelet', 'Pelle
 insert into products (name, description, code, price) values ('handbag', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.', '693155505-7', 13.5);
 insert into products (name, description, code, price) values ('buttons', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', '686928463-6', 14);
 insert into products (name, description, code, price) values ('earrings', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.', '492662523-7', 14);
-
+insert into products (name, description, code, price) values ('ring', 'silver', '492662587-7', 10);
