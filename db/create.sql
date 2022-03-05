@@ -29,7 +29,7 @@ CREATE TABLE ratings (
 
 insert into products (name, description, code, price, material, ratings_id) values ('necklace', 'gold colored necklace with shell charms', '816905633-0', 10.5, 'gold', 4);
 insert into products (name, description, code, price, material, ratings_id) values ('gloves', 'Nulla ut erat id mauris vulputate elementum. Nullam varius.', '077030122-3', 11, 'nylon', 3);
-insert into products (name, description, code, price, material, ratings_id) values ('bracelet', 'silver colored bracelet with colorful beads', '445924201-X', 13.5, 'copper', 5);
+insert into products (name, description, code, price, material, ratings_id) values ('bracelet', 'gold bracelet with silver beads', '445924201-X', 13.5, 'gold', 5);
 insert into products (name, description, code, price, material, ratings_id) values ('handbag', 'black leather handbag', '693155505-7', 13.5, 'leather', 5);
 insert into products (name, description, code, price, material) values ('buttons', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', '686928463-6', 14, 'plastic');
 insert into products (name, description, code, price, material, ratings_id) values ('earrings', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.', '492662523-7', 14, 'aluminium', 3);
