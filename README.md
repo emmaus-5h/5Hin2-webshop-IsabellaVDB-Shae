@@ -31,7 +31,7 @@ Stap 3: API aanpassen
 - [x] Pas de API aan, zodat je alle informatie uit je database kunt opvragen via de API
 
 Stap 4: Website aanpassen 
-- [ ] Pas de website aan, zodat alle informatie getoond wordt.
+- [x] Pas de website aan, zodat alle informatie getoond wordt.
 
 Stap x: Webshop verder verbeteren
 - [ ] Herhaal stap 2 t/m 4 om je webshop verder te verbeteren. 
