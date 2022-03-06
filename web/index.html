@@ -61,7 +61,6 @@
 						<li><span class="propert-name">Price:</span><span class="product_price"></span></li>
 						<li><span class="propert-name">Code: 
  </span><span class="product_code"></span></li>
-            <li><span class="propert-name">texture:</span><span class="product_texture_id"></span></li>
             <li><span class="propert-name">stock:</span><span class="product_stock_id"></span></li>
              <li><span class="propert-name">ratings:</span><span class="product_ratings"></span></li>
 					</ul>
@@ -126,8 +125,7 @@
               const clone = template.content.cloneNode(true);
               clone.querySelector(".product_title").textContent = name
               clone.querySelector(".product_description").textContent =`${product.description.substr(0, 100)}`
-             
-clone.querySelector(".product_texture_id").textContent =`${product.texture_id}`              
+
               clone.querySelector(".product_price").textContent = `€ ${product.price.toFixed(2)}`
              
 clone.querySelector(".product_ratings").textContent = ` ${product.ratings}`

@@ -8,7 +8,6 @@ CREATE TABLE products (
   name VARCHAR(255),
   description TEXT,
   price NUMERIC(10, 2),
-  texture_id INTEGER,
   ratings INTEGER,
   stock_id INTEGER
 );
