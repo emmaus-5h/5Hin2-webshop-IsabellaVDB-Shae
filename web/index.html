@@ -62,6 +62,7 @@
 						<li><span class="propert-name">Code: 
  </span><span class="product_code"></span></li>
             <li><span class="propert-name">material:</span><span class="product_material"></span></li>
+            <li><span class="propert-name">rating:</span><span class="product_ratings_id"></span></li>
 					</ul>
 					<input class="product_amount" type="number" value="1" min="1">
 					<input class="product_id" type="hidden" name="id" data-json="">
@@ -127,7 +128,9 @@
              
 clone.querySelector(".product_material").textContent =`${product.material}`              
               clone.querySelector(".product_price").textContent = `€ ${product.price.toFixed(2)}`
-              clone.querySelector(".product_code").textContent = product.code
+             
+clone.querySelector(".product_ratings_id").textContent = ` ${product.ratings}`
+                            clone.querySelector(".product_code").textContent = product.code
               clone.querySelector(".product_id").value = product.id
               clone.querySelector(".product_id").dataset.json = JSON.stringify(product)
               clone.querySelector(".product_image").src =`/images/${product.id}.jpg`
