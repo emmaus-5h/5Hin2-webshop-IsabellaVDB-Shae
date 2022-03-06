@@ -41,13 +41,13 @@ CREATE TABLE material (
 -- want different data? check: https://www.mockaroo.com/910b6c20
 --
 
-insert into products (name, description, code, price, texture_id, ratings, stock_id) values ('necklace', 'colorfull necklace with beads', '816905633-0', 3.5, 3, '3/5',1);
-insert into products (name, description, code, price, texture_id, ratings, stock_id) values ('gloves', 'leather gloves', '077030122-3', 18, 1, '3/5',1);
-insert into products (name, description, code, price, texture_id, ratings, stock_id) values ('bracelet', 'gold bracelet with silver beads', '445924201-X', 13.5, 3, '5/5',1);
-insert into products (name, description, code, price, texture_id, ratings, stock_id) values ('handbag', 'black leather handbag', '693155505-7', 28, 1, '4/5',2);
-insert into products (name, description, code, price, texture_id, ratings, stock_id) values ('buttons', 'colorfull buttons to clip on your clothes', '686928463-6', 5.25, 2,'4/5',1);
-insert into products (name, description, code, price, texture_id, ratings,stock_id) values ('earrings', 'hanging star earrings', '492662523-7', 12.5, 3, '5/5',1);
-insert into products (name, description, code, price, texture_id, ratings, stock_id) values ('ring', 'gold ring with flower print', '492662587-7', 7.5, 3, '4/5', 1);
+insert into products (name, description, code, price,  ratings, stock_id) values ('necklace', 'colorfull necklace with beads', '816905633-0', 3.5, '3/5',1);
+insert into products (name, description, code, price, ratings, stock_id) values ('gloves', 'leather gloves', '077030122-3',18, '3/5',1);
+insert into products (name, description, code, price,  ratings, stock_id) values ('bracelet', 'gold bracelet with silver beads', '445924201-X', 13.5, '5/5',1);
+insert into products (name, description, code, price, ratings, stock_id) values ('handbag', 'black leather handbag', '693155505-7', 28, '4/5',2);
+insert into products (name, description, code, price, ratings, stock_id) values ('buttons', 'colorfull buttons to clip on your clothes', '686928463-6', 5.25,'4/5',1);
+insert into products (name, description, code, price,  ratings,stock_id) values ('earrings', 'hanging star earrings', '492662523-7', 12.5,  '5/5',1);
+insert into products (name, description, code, price, ratings, stock_id) values ('ring', 'gold ring with flower print', '492662587-7', 7.5, '4/5', 1);
 
 insert into weight (weight) values ('light');
 insert into weight (weight) values ('heavy');
