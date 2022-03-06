@@ -48,6 +48,9 @@ insert into products (name, description, code, price, ratings, stock_id) values 
 insert into products (name, description, code, price, ratings, stock_id) values ('buttons', 'colorfull buttons to clip on your clothes', '686928463-6', 5.25,'4/5',1);
 insert into products (name, description, code, price,  ratings,stock_id) values ('earrings', 'hanging star earrings', '492662523-7', 12.5,  '5/5',1);
 insert into products (name, description, code, price, ratings, stock_id) values ('ring', 'gold ring with flower print', '492662587-7', 7.5, '4/5', 1);
+insert into products (name, description, code, price, ratings, stock_id) values ('reusable straws', 'gold reusable straws', '686928463-6', 4,'4/5',1);
+insert into products (name, description, code, price,  ratings,stock_id) values ('wallet', 'black leather wallet', '492662523-7', 9.5,  '5/5',1);
+insert into products (name, description, code, price, ratings, stock_id) values ('sunglasses', 'gold round sunglasses', '492662587-7', 12.5, '4/5', 1);
 
 insert into weight (weight) values ('light');
 insert into weight (weight) values ('heavy');
